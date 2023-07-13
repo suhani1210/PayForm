@@ -1,0 +1,56 @@
+body{
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+form h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(241, 236, 236);
+    padding: 20px;
+}
+ul{
+    list-style-type: square;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px;
+}
+div{
+        border: 2px solid black;
+        background-color: grey;
+        padding: 8px;
+}
+li{
+    color: blue;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form_submit_button{
+    margin-left: 135px;
+    width: 50%;
+    background-color: blue;
+    color: rgb(4, 255, 4);
+}
